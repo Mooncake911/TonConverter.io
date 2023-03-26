@@ -1,0 +1,47 @@
+body {
+	margin: 5% 0;
+	outline: thick double #fff;
+	font-size: 18px;
+	color: var(--tg-theme-text-color);
+	background: #2294e5fa;
+}
+
+.container {
+	text-align: center;
+	padding: 10px;
+	max-width: 390px;
+}
+
+.selected_form{
+
+}
+
+.file_upload{
+
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	border: none;
+	background: rgb(248, 168, 24);
+	border-radius: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+
+	transition: background .2s linear;
+}
+
+.btn:hover {
+	background: lightgreen;
+}
+
+/*
+var(--tg-theme-bg-color)
+var(--tg-theme-text-color)
+var(--tg-theme-hint-color)
+var(--tg-theme-link-color)
+var(--tg-theme-button-color)
+var(--tg-theme-button-text-color)
+*/

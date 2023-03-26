@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  webapptelegram:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: "webapptelegram:latest"
+    container_name: "webapptelegram"
+    ports:
+      - "5000:5000"

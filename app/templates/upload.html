@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="static/icon.png">
+        <link rel="stylesheet" href="static/style.css">
+        <title> TonConverter Bot </title>
+    </head>
+    <body>
+        <form class="container" action="" method="POST" enctype="multipart/form-data">
+			<!--Uploading and saving file-->
+			<label> Choose files or drop files </label><br>
+			<input type="file" name="file" accept=".docx,.pdf,.doc,.jpg,.jpeg,.gif,.png,.bmp,.svg,.tiff,.htm,.html,.docm,.dotx,.dot,.md,.rtf,.odt,.ott,.txt,.mobi,.mht,.mhtml,.xht,.xhtml,.chm,.zip,.rar,.7z,.tar,.tar.gz,.wps,.wpt" multiple="multiple">
+			<br>
+			<!--Get format-->
+			<span> Save as: </span>
+			<label for="saveAs"></label><select id="saveAs" name="saveAs" class="selected_form" onchange="">
+				<option disabled="disabled" selected="selected">Choose format</option>
+				<option value=".docx">DOCX</option>
+				<option value=".pdf">PDF</option>
+				<option value=".jpg">JPG</option>
+				<option value=".md">MD</option>
+				<option value=".html">HTML</option>
+				<option value=".txt">TXT</option>
+				<option value=".doc">DOC</option>
+				<option value=".dot">DOT</option>
+				<option value=".docm">DOCM</option>
+				<option value=".dotx">DOTX</option>
+				<option value=".rtf">RTF</option>
+				<option value=".mhtml">MHTML</option>
+				<option value=".xhtml">XHTML</option>
+				<option value=".odt">ODT</option>
+				<option value=".ott">OTT</option>
+				<option value=".ps">PS</option>
+				<option value=".pcl">PCL</option>
+				<option value=".xps">XPS</option>
+				<option value=".bmp">BMP</option>
+				<option value=".emf">EMF</option>
+				<option value=".png">PNG</option>
+				<option value=".svg">SVG</option>
+				<option value=".gif">GIF</option>
+				<option value=".tiff">TIFF</option>
+				<option value=".epub">EPUB</option>
+				<option value=".zip">ZIP</option>
+				<option value=".tar.gz">TAR.GZ</option>
+				<option value=".wps">WPS</option>
+				<option value=".wpt">WPT</option>
+			</select><br>
+			<!--User press button to run converter-->
+			<button type="submit" class="btn"> Upload </button>
+		</form>
+        <script src="https://telegram.org/js/telegram-web-app.js"></script>
+        <script src="static/app.js"></script>
+    </body>
+</html>
