@@ -20,8 +20,6 @@ def get_format_keyboard() -> InlineKeyboardMarkup:
         InlineKeyboardButton(text='.png', callback_data='.png'),
         InlineKeyboardButton(text='.bmp', callback_data='.bmp'),
         InlineKeyboardButton(text='.svg', callback_data='.svg'),
-        InlineKeyboardButton(text='.tiff', callback_data='.tiff'),
-        InlineKeyboardButton(text='.htm', callback_data='.htm'),
         InlineKeyboardButton(text='.html', callback_data='.html'),
         InlineKeyboardButton(text='.docm', callback_data='.docm'),
         InlineKeyboardButton(text='.dotx', callback_data='.dotx'),
@@ -31,19 +29,9 @@ def get_format_keyboard() -> InlineKeyboardMarkup:
         InlineKeyboardButton(text='.odt', callback_data='.odt'),
         InlineKeyboardButton(text='.ott', callback_data='.ott'),
         InlineKeyboardButton(text='.txt', callback_data='.txt'),
-        InlineKeyboardButton(text='.mobi', callback_data='.mobi'),
         InlineKeyboardButton(text='.mht', callback_data='.mht'),
         InlineKeyboardButton(text='.mhtml', callback_data='.mhtml'),
-        InlineKeyboardButton(text='.xht', callback_data='.xht'),
-        InlineKeyboardButton(text='.xhtml', callback_data='.xhtml'),
-        InlineKeyboardButton(text='.chm', callback_data='.chm'),
-        InlineKeyboardButton(text='.zip', callback_data='.zip'),
-        InlineKeyboardButton(text='.rar', callback_data='.rar'),
-        InlineKeyboardButton(text='.7z', callback_data='.7z'),
-        InlineKeyboardButton(text='.tar', callback_data='.tar'),
-        InlineKeyboardButton(text='.tar.gz', callback_data='.tar.gz'),
-        InlineKeyboardButton(text='.wps', callback_data='.wps'),
-        InlineKeyboardButton(text='.wpt', callback_data='.wpt'))
+        InlineKeyboardButton(text='.zip', callback_data='.zip'))
     return ikb
 
 
